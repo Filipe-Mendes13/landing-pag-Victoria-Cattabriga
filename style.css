@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #A7D0D9;
+    font-family: 'Roboto', sans-serif;
+}
+header img{
+    width: 250px;
+    height: 100%;
+}
+
+header{
+    background-color: #A7D0D9;
+    display: flex;
+    height: 19vh;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-align: left;
+    font-family: 'Pacifico', cursiva;
+}
+nav{
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 1rem;
+}
+nav a{
+    font-size: larger;
+    text-decoration: none;
+    color: #386873;
+}
+nav a:hover{
+    color: #64bacd;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(img/consulta.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    width: 50%;
+    height: 81vh;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color:#0e0b0b;
+    margin-top: 19vh;
+}
+h1, h2{
+    padding: 2%;
+}
+a img{
+    border-radius: 19px;
+    padding-top: 5%;
+}
+
+#sobre{
+    background-color: #C2E9F2;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-height: 100vh;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 81vh;
+    color:#000000;
+    margin-top: 19vh;
+    padding-top: 0rem;
+    padding-left: 2rem;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 1.5em;
+    max-height: 81vh;
+}
+.psicologa{
+    width: 50%;
+    height: 81vh;
+    margin-top: 19vh;
+    text-align: center;
+    color:  #386873;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 81vh;
+}
+.psicologa img{
+    height: 80%;
+    width: 70%;
+    border-radius: 18px;
+    
+}
+
+#servicos{
+    background-color: #C2E9F2;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-height: 100vh;
+}
+.lista{
+    width: 70%;
+    height: 80vh;
+    margin-top: 19vh;
+    text-align: justify;
+    background-color: #d9f1f6;
+    color:  #000000;
+    max-height: 81vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 18px;
+    box-shadow: 5px 5px 13px black;
+    
+    
+}
+.lista h1{
+    font-family: 'Pacifico', cursiva;
+    color: #386873;
+}
+.lista h2{
+    font-family: 'Pacifico', cursiva;
+    color: #386873;
+}
+
+#contato{
+    background-color: #5c6f73;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    max-height: 100vh;
+}
+.fim ul{
+    display: flex;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    list-style: none;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.fim img{
+    height: 70px;
+    width: 70px;
+}
+.fim h1{
+    text-align: center;
+    font-family: 'Pacifico', cursiva;
+    color: #A7D0D9;
+    
+}
+.fim{
+    height: 100%;
+    width: 100%;
+}
